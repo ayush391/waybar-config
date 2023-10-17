@@ -31,7 +31,7 @@ window#waybar.hidden {
 #idle_inhibitor,
 #custom-power-menu,
 #custom-launcher,
-#custom-spotify,
+/* #custom-spotify, */
 #custom-weather,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
@@ -273,8 +273,21 @@ label:focus {
   color: #2d3436;
 }
 
-#custom-spotify {
-  color: #abb2bf;
+.custom-spotify {
+  /* color: #e5e5e5; */
+  border-radius: 6px;
+  padding: 2px 10px;
+  background-color: #1db954;
+  border-radius: 8px;
+  font-size: 18.5px;
+
+  margin-left: 4px;
+  margin-right: 4px;
+
+  margin-top: 8.5px;
+  margin-bottom: 8.5px;
+
+  color: black;
 }
 
 #custom-weather {
